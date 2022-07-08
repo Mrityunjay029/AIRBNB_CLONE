@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'poppins',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav {
+  height: 60px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.gridimg {
+  padding: 15px;
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+}
+.headingpara {
+  text-align: left;
+  margin-left: 25px;
+}
+.headingpara >h1,p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  flex-flow: wrap;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.card >img{
+  width: 15%;
+  height: auto;
+}
+.C1 {
+  position: relative;
+}
+.p1 {
+  position: absolute;
+  bottom: 90%;
+  left: 4%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.rating1 {
+  width: 380px;
+  height: auto;
+  display: block;
+}
+.C2 {
+  position: relative;
+  margin-left: 40px;
+}
+.p2 {
+  position: absolute;
+  bottom: 90%;
+  left: 4%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.rating2 {
+  width: 380px;
+  height: auto;
+  display: block;
+}
+.C3 {
+  position: relative;
+  margin-left: 40px;
+}
+.p3 {
+  position: absolute;
+  bottom: 90%;
+  left: 4%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.rating3 {
+  width: 275px;
+  height: auto;
+  display: block;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+}
